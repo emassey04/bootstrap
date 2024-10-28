@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    display: block;
+    margin-left:centert;
+    margin-right: auto;
+    width: 50%; }
+
+    .flex-container {
+        display:flex;
+        justify-content:baseline; /* Horizontally centers */
+        align-items:center;     /* Vertically centers */
+        height: 100%;           /* Full viewport height to center vertically */
+        width: 100%;
+    }
+
+    .background {
+
+        background-position: center;
+        background-color: aqua;
+    }
+
+    .body {
+        background-color: blue;
+    }
+
+    .btn-group {
+        align-self: center;
+        width: 190%;
+        padding:10px;
+        margin-right:auto;
+        
+    }
